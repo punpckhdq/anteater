@@ -39,7 +39,8 @@ Replication is the layer in Halo 3's networking stack which sends and recieves
 simulation data from peers ingesting it into the local game simulation.
 Simulation updates come in entities and events. Entities are persistent objects
 with updatable fields and a baseline. Events are things that happen once and
-operate on extant entities: weapons firing, melee attacks, kick requests, etc.
+operate on extant entities: weapons firing, melee attacks, kick requests, amongst
+others.
 
 ```
 c_replication_scheduler::read_from_packet: v13->read_from_packet ->
